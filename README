@@ -1,0 +1,54 @@
+Rock-Paper-Scissors Game
+This is a simple Python terminal-based Rock-Paper-Scissors game where the player competes against the computer.
+
+Objective
+The player selects either Rock, Paper, or Scissors. The computer randomly chooses its move, and the winner is decided using the traditional rules:
+Rock beats Scissors
+Paper beats Rock
+Scissors beats Paper
+
+File Structure
+bash
+Copy
+Edit
+rock_paper_scissors.py   
+README.md                 
+How to Run the Game
+Requirements:
+Python 3.x installed on your system
+
+Steps:
+Open the terminal or command prompt.
+Navigate to the folder where rock_paper_scissors.py is saved.
+
+Run the game using:
+python rock_paper_scissors.py
+
+Sample Output:
+Your choices:
+1. Rock
+2. Paper
+3. Scissors
+Enter your choice (1/2/3): 2
+
+You chose: Paper
+Computer chose: Rock
+Result: You win!
+
+Play again? (yes/no): no
+Thanks for playing!
+
+Developer
+C. Dharshini 
+Developed using Python 3
+
+Features:
+Text-based user interface
+Random computer move generation
+Input validation
+Option to play multiple rounds
+
+Future Improvements:
+GUI version using Tkinter
+Score tracking
+Difficulty levels
